@@ -6,9 +6,11 @@
 /*   By: mac <sorungta@42bangkok.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 07:12:54 by mac               #+#    #+#             */
-/*   Updated: 2022/08/01 07:12:59 by mac              ###   ########.fr       */
+/*   Updated: 2022/08/01 10:47:07 by mac              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// #include <stdio.h>
 
 int	ft_is_prime(int nb)
 {
@@ -39,3 +41,8 @@ int	ft_find_next_prime(int nb)
 		++i;
 	return (i);
 }
+/*
+int	main(void)
+{
+	printf("%d", ft_find_next_prime(0));
+}*/

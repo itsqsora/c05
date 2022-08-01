@@ -6,9 +6,11 @@
 /*   By: mac <sorungta@42bangkok.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 07:12:21 by mac               #+#    #+#             */
-/*   Updated: 2022/08/01 07:12:26 by mac              ###   ########.fr       */
+/*   Updated: 2022/08/01 10:44:50 by mac              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// #include <stdio.h>
 
 int	ft_is_prime(int nb)
 {
@@ -29,3 +31,8 @@ int	ft_is_prime(int nb)
 	}
 	return (1);
 }
+/*
+int	main(void)
+{
+	printf("%d", ft_is_prime(19));
+}*/

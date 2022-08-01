@@ -6,20 +6,32 @@
 /*   By: mac <sorungta@42bangkok.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 07:11:48 by mac               #+#    #+#             */
-/*   Updated: 2022/08/01 07:11:58 by mac              ###   ########.fr       */
+/*   Updated: 2022/08/01 10:49:23 by mac              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// #include <stdio.h>
+
 int	ft_sqrt(int nb)
 {
-	long long	i;
+	int	i;
+	int	sq;
 
-	if (nb <= 0)
-		return (0);
 	i = 1;
+	sq = 1;
+	if (nb == 0)
+		return (0);
 	while (i * i < nb)
-		++i;
-	if (i * i == nb)
+	{
+		i++;
+	}
+	if ((nb % i) == 0)
 		return (i);
-	return (0);
+	else
+		return (0);
 }
+/*
+int	main(void)
+{
+    printf("%d", ft_sqrt(650));
+}*/
